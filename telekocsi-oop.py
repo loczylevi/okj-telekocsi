@@ -66,5 +66,7 @@ with open("utasuzenetek.txt","w",encoding="latin2") as f3:
             tel = sor.tel
             if indulas2 == indulas and cel2 == cel and ferohelyek >= szemelyek:
                 f3.write(f"{azonosito}: Rendszám: {rendszam}, Telefonszáma: {tel}\n")
+            #else:
+                #f3.write(f"{azonosito}: Sajnos nem sikerült autót találni\n")   # valamiért ez nem müködik :(
             
             
